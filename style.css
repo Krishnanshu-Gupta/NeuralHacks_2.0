@@ -326,7 +326,7 @@ section {
 }
 
 #info-header * {
-    margin-left: 50px;
+    
 }
 
 #info-header h1 {
@@ -344,24 +344,43 @@ section {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 #day1 {
-    flex: 1;
+    width: fit-content;
     height: fit-content;
-    margin-left: 0;
+    margin: 0 18% 0 50px;
     margin-top: 0;
 }
 
 #day2 {
-    flex: 1;
+    width: fit-content;
     height: fit-content;
-    margin-left: 0;
+    margin: 0 0 0 18%;
     margin-top: 0;
     padding-bottom: 40px;
 }
 
-#day1 *, #day2 * {
+#day3 {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: -300px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+    #day3 {
+        width: fit-content;
+        height: fit-content;
+        margin-left: 50px;
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+}
+
+#day1 *, #day2 *, #day3 *{
     margin-top: 0;
     margin-left: 0;
 }
@@ -385,7 +404,7 @@ section {
 }
 
 #schedule ul li:not(:last-child) {
-    margin-bottom: 35px;
+    margin-bottom: 0px;
 }
 
 .event {
@@ -604,4 +623,16 @@ section {
 .break {
     width: 100%;
     height: 50px;
+}
+
+@media (max-width: 600px) {
+    .sponsor-line {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .links-section {
+        flex-direction: column;
+    }
 }
