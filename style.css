@@ -4,7 +4,7 @@ body {
     background-color: #000000;
     font-family: "Black Ops One";
     padding: 10px;
-    min-height: 200vh;
+    min-height: 100vh;
 }
 
 h1 {
@@ -555,8 +555,10 @@ section {
 }
 
 .l-sec {
-    width: 88%;
-    margin: 0 6%;
+    border-top: 5px dashed yellow;
+    width: 94%;
+    margin: 30px 3%;
+    padding: 0;
 }
 
 .links-section {

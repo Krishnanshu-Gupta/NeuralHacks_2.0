@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+    height: fit-content;
+    padding: 25px 0;
+}
+
+.container .text-section {
+    width: 90%;
+}
+
+.text-section .text-heading {
+    font-size: 60px;
+    width: fit-content;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px solid rgba(111, 50, 255, 0.5);
+}
+
+.text-desc {
+    font-size: 22px;
+    font-family: Montserrat;
+    color: white;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.l-sec {
+    width: 94%;
+    margin: 20px 3%;
+    padding: 0;
+}
