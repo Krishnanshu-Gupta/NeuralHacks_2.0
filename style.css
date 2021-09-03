@@ -352,6 +352,7 @@ section {
     height: fit-content;
     margin: 0 18% 0 50px;
     margin-top: 0;
+    word-wap: break-word;
 }
 
 #day2 {
